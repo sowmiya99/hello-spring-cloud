@@ -7,6 +7,6 @@ applications:
   domain: cfapps.io
   path: target/hello-spring-cloud-0.0.1-SNAPSHOT.jar
   services:
-    - mysql-service
+    - MySQL
   env:
     SPRING_PROFILES_DEFAULT: cloud
